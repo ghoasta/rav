@@ -1,3 +1,5 @@
+#adding commenct to test git
+
 class Dog:
 	DOG_TO_HUMAN_YEARS_CONVERSION_FACTOR = 7
 
@@ -14,7 +16,7 @@ class Dog:
 
 	def age_in_human_years(self):
 		return self.age* self.DOG_TO_HUMAN_YEARS_CONVERSION_FACTOR		
-
+#second comment
 def main():
 	dog1 = Dog("Freddie",1,"King Charles")
 	dog2 = Dog("Micky",6,"Greyhound")
